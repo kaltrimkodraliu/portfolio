@@ -13,7 +13,7 @@ const HeroImg = () => {
             src={IntroImg} alt="IntroImg"/>
     </div>
     <div className="content">
-        <p>Hi I'M A FREELACER.</p>
+        <p>Hi, I'M KALTRIM KODRALIU</p>
         <h1>React Developer.</h1>
         <div>
             <Link to="/project"
