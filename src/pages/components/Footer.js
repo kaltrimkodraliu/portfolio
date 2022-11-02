@@ -45,7 +45,7 @@ const Footer = () => {
                     <h4>About me</h4>
                     <p>Im friendly Front-End Developer</p>
                     <div className="social">
-                        <FaLinkedin  size={30}  style={{
+                        <FaLinkedin size={30} style={{
                             color:
                                 "#fff", marginRight: "1rem"
                         }} />

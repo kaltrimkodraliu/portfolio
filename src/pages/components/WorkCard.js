@@ -18,7 +18,6 @@ const WorkCard = (props) => {
                     </div>
                 </div>
             </div>
-      
     );
 };
 

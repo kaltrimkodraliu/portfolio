@@ -1,10 +1,10 @@
 import pro1 from "../assets/pybuddy.PNG";
 import pro2 from "../assets/bc.PNG";
 import pro3 from "../assets/111.PNG";
- 
- 
- 
- const ProjectData = [
+
+
+
+const ProjectData = [
     {
         imgsrc: pro1,
         title: "PyBuddy",
@@ -23,6 +23,6 @@ import pro3 from "../assets/111.PNG";
         text: "- A collection of best libraries and components from github for crypto.Made with Django framework with bootstrap on templates",
         view: "https://github.com/kaltrimkodraliu/portfolio"
     },
- ];
+];
 
- export default ProjectData
+export default ProjectData
