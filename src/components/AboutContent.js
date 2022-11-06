@@ -1,8 +1,7 @@
 import "./AboutContentStyle.css";
 import React from "react";
 import { Link } from "react-router-dom";
-import rr from "../assets/rr.jpg"
-
+import dj from "../assets/1.png"
 
 const AboutContent = () => {
     return (
@@ -20,7 +19,8 @@ const AboutContent = () => {
             <div className="right">
                 <div className="img-container">
                     <div className="img-stack top">
-                        <img src={rr} alt="true"></img>
+                    <h1>My experience</h1>
+                        <img src={dj} alt="true"></img>
 
                     </div>
                 </div>
