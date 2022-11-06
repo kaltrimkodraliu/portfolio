@@ -1,7 +1,7 @@
 import "./WorkCardStyles.css"
 import React from "react"
 import pro1 from "../assets/pybuddy.PNG";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const WorkCard = (props) => {
     return(
@@ -11,10 +11,9 @@ const WorkCard = (props) => {
                 <div className="pro-details">
                     <p>{props.text}</p>
                     <div className="pro-btns">
-                        <NavLink to={props.view}
-                        className="btn">View</NavLink>
-                         <NavLink to="url.com"
-                        className="btn">Source</NavLink>
+                         <a href={props.link}
+                         
+                        className="btn">View</a>
                     </div>
                 </div>
             </div>
