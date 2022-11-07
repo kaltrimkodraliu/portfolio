@@ -19,7 +19,7 @@ const AboutContent = () => {
             <div className="right">
                 <div className="img-container">
                     <div className="img-stack top">
-                    <h1>My experience</h1>
+                    <h1>Skills</h1>
                         <img src={dj} alt="true"></img>
 
                     </div>

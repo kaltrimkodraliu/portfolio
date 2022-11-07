@@ -20,7 +20,7 @@ const ProjectData = [
     {
         imgsrc: pro3,
         title: "Portfolio",
-        text: "- A collection of best libraries and components from github for crypto.Made with Django framework with bootstrap on templates",
+        text: "",
         link: "https://github.com/kaltrimkodraliu/portfolio"
     },
 ];
