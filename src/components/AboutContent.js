@@ -1,6 +1,5 @@
 import "../styles/AboutContentStyle.css";
 import React from "react";
-import { Link } from "react-router-dom";
 
 const AboutContent = () => {
     return (
@@ -10,10 +9,7 @@ const AboutContent = () => {
                 <p>Im a react front-end developer. I create
                     responsive secure websites for my clients.
                 </p>
-                <Link to="/contact">
-                    <button className="btn">Contact</button>
-
-                </Link>
+                <a className='btn mt-3' href={"assets/documents/CV - Kaltrim Kodraliu.pdf"} download>Download CV</a>
             </div>
             <div className="right">
                 <div className="img-container">
