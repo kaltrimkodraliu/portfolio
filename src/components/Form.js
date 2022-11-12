@@ -1,4 +1,4 @@
-import "./FormStyles.css"
+import "../styles/FormStyles.css";
 import React from "react"
 
 const Form = () => {
@@ -7,9 +7,9 @@ const Form = () => {
             <form action="https://formspree.io/f/xvoydgqj"
                 method="POST">
                 <label>Your Name</label>
-                <input type="text"></input>
+                <input type="text" required ></input>
                 <label>Email</label>
-                <input type="email" name="email"></input>
+                <input type="email" required name="email"></input>
                 <label>Message</label>
                 <textarea rows="6" placeholder="Type your message here" name="message"></textarea>
                 <button className="btn" type="submit">Submit</button>

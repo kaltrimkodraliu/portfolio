@@ -1,24 +1,20 @@
-import pro1 from "../assets/pybuddy.PNG";
-import pro2 from "../assets/bc.PNG";
-import pro3 from "../assets/111.PNG";
-
 
 
 const ProjectData = [
     {
-        imgsrc: pro1,
+        imgsrc: "assets/pybuddy.PNG",
         title: "PyBuddy",
         text: "- A collection of best libraries and components from github for crypto.Made with Django framework with bootstrap on templates",
         link: "https://pybuddy.com/"
     },
     {
-        imgsrc: pro2,
+        imgsrc: "assets/bc.PNG",
         title: "BestCryptoLibs",
         text: "- A collection of best libraries and components from github for crypto.Made with Django framework with bootstrap on templates",
         link: "https://bestcryptolibs.com/"
     },
     {
-        imgsrc: pro3,
+        imgsrc: "assets/111.PNG",
         title: "Portfolio",
         text: "",
         link: "https://github.com/kaltrimkodraliu/portfolio"

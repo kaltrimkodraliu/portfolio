@@ -1,7 +1,6 @@
-import "./AboutContentStyle.css";
+import "../styles/AboutContentStyle.css";
 import React from "react";
 import { Link } from "react-router-dom";
-import dj from "../assets/1.png"
 
 const AboutContent = () => {
     return (
@@ -20,7 +19,7 @@ const AboutContent = () => {
                 <div className="img-container">
                     <div className="img-stack top">
                     <h1>Skills</h1>
-                        <img src={dj} alt="true"></img>
+                        <img src={"assets/1.png"} alt="true"></img>
 
                     </div>
                 </div>

@@ -1,4 +1,4 @@
-import "./WorkCardStyles.css"
+import "../styles/WorkCardStyles.css";
 import React from "react"
 import WorkCard from "./WorkCard";
 import WorkData from "./WorkData"
@@ -18,7 +18,6 @@ const Work = () => {
                     />
                 )
             })}
-           
         </div>
     </div>
 };

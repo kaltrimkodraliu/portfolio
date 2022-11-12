@@ -1,10 +1,11 @@
-import "./FooterStyles.css";
+import "../styles/FooterStyles.css";
 import React from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faFacebook } from '@fortawesome/free-brands-svg-icons'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import {
-    FaFacebook,
-    FaGithub,
     FaHome,
-    FaLinkedin,
     FaMailBulk,
     FaPhone
 }
@@ -37,26 +38,28 @@ const Footer = () => {
                                 color:
                                     "#fff", marginRight: "2rem"
                             }} />
-                            kodraliukaltrim@gmail.com
+                           kodraliukaltrim@gmail.com
                         </h4>
                     </div>
                 </div>
                 <div className="right">
                     <h4>About me</h4>
                     <p>Im friendly Front-End Developer</p>
-                    <div className="social">
-                        <FaLinkedin size={30} style={{
+                    <div className='icons'>
+                        <a href="https://www.linkedin.com/in/kaltrim-kodraliu-1838081aa/"><FontAwesomeIcon className='icon fa-2xl' icon={faLinkedin} style={{
                             color:
-                                "#fff", marginRight: "1rem"
-                        }} />
-                        <FaGithub size={30} style={{
+                                "#fff", marginRight: "2rem"
+                        }} /></a>
+
+                        <a href="https://github.com/kaltrimkodraliu"><FontAwesomeIcon className='icon fa-2xl' icon={faGithub} style={{
                             color:
-                                "#fff", marginRight: "1rem"
-                        }} />
-                        <FaFacebook size={30} style={{
+                                "#fff", marginRight: "2rem"
+                        }} /></a>
+
+                        <a href="https://www.facebook.com/kaltrim.kodraliu"><FontAwesomeIcon className='icon fa-2xl' icon={faFacebook} style={{
                             color:
-                                "#fff", marginRight: "1rem"
-                        }} />
+                                "#fff", marginRight: "2rem"
+                        }} /></a>
                     </div>
                 </div>
             </div>

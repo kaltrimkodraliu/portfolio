@@ -1,7 +1,5 @@
-import "./WorkCardStyles.css"
+import "../styles/WorkCardStyles.css";
 import React from "react"
-import pro1 from "../assets/pybuddy.PNG";
-import { Link, NavLink } from "react-router-dom";
 
 const WorkCard = (props) => {
     return(
