@@ -16,7 +16,7 @@ const ProjectData = [
     {
         imgsrc: "assets/111.PNG",
         title: "Portfolio",
-        text: "",
+        text: "A simple portfolio React App",
         link: "https://github.com/kaltrimkodraliu/portfolio"
     },
 ];
