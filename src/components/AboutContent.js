@@ -9,7 +9,7 @@ const AboutContent = () => {
                 <p>Im a react front-end developer. I create
                     responsive secure websites for my clients.
                 </p>
-                <a className='btn mt-3' href={"assets/documents/KaltrimKodraliu-CV.pdf"} download>Download CV</a>
+                <a className='btn mt-3' href={"assets/documents/KaltrimKodraliuCV.pdf"} download>Download CV</a>
             </div>
             <div className="right">
                 <div className="img-container">
