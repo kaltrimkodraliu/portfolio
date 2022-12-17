@@ -6,11 +6,11 @@ import Work from "../components/Work";
 
 const Home = () => {
     return <div>
-        <Navbar/>
-        <HeroImg/>
-        <Work/>
-        <Footer/>
-        </div>
+        <Navbar />
+        <HeroImg />
+        <Work />
+        <Footer />
+    </div>
 };
 
 export default Home;

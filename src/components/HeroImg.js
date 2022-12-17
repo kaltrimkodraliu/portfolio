@@ -9,7 +9,7 @@ const HeroImg = () => {
         <div className="hero">
             <div className="mask">
                 <img className="into-img"
-                    src={"assets/laptop-background.jpg"} alt="IntroImg" />
+                    src={process.env.PUBLIC_URL + "/assets/laptop-background.jpg"} alt="IntroImg" />
             </div>
             <div className="content">
                 <p>Hi, I'M KALTRIM KODRALIU</p>
