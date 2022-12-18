@@ -17,7 +17,7 @@ const ProjectData = [
         imgsrc: process.env.PUBLIC_URL + "/assets/111.PNG",
         title: "Portfolio",
         text: "A simple portfolio React App",
-        link: "https://github.com/kaltrimkodraliu/portfolio"
+        link: "https://kaltrimkodraliu.github.io/portfolio/"
     },
 ];
 
