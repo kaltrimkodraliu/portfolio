@@ -13,7 +13,7 @@ const AboutContent = () => {
         <a
           className="btn mt-3"
           href={
-            process.env.PUBLIC_URL + "/assets/documents/Kaltrim Kodraliu CV.pdf"
+            process.env.PUBLIC_URL + "/assets/documents/kaltrim.kodraliu.pdf"
           }
           download
         >
